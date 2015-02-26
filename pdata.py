@@ -17,7 +17,7 @@ class listener(StreamListener):
             t_list = re.split('\s+', tweet)
             tweet_new = ""
             label = ""
-            for item in t_list:
+            ''' for item in t_list:
                 if re.search('http', item):
                     continue
                 elif re.search('@', item):
@@ -29,6 +29,14 @@ class listener(StreamListener):
                     if item.lower() in brands:
                         label = item
                         print label
+            print tweet_new'''
+
+            for item in t_list:
+                if '@' in item or 'http' in item:
+                    t_list.remove(item)
+                if item.lower() in brands:
+                    label = item
+            tweet_new = ' '.join(t_list)
             print tweet_new
             saveThis = str(user_id) + '::' + tweet_new + ' | ' + label
             saveFile = open('twitDB.csv','a')
