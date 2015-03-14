@@ -8,7 +8,7 @@ Firstly, download twitter API from https://github.com/tweepy/tweepy.git and inst
 Secondly, download twitter-python from https://github.com/bear/python-twitter.git
 
 
-*Grab_data.py uses twitter API to crawl tweets( mentions certain car brands in car_brands.txt) from twitter.
+* Grab_data.py uses twitter API to crawl tweets( mentions certain car brands in car_brands.txt) from twitter.
 
 
 pdata_user.py catches tweets of a specific user( specified the use id).
