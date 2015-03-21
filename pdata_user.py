@@ -47,3 +47,4 @@ while 1:
         time.sleep(200)
     except BaseException, e:
         print 'failed on data ', str(e)
+userID_file.close()
