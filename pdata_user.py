@@ -43,8 +43,10 @@ while 1:
             ss_tp = textProcessing(ss)
             twitter_c.writerow([ss_tp])
         line = userID_file.readline()
+        time.sleep(7)
         twitter_f.close()
-        time.sleep(200)
     except BaseException, e:
         print 'failed on data ', str(e)
+        line = userID_file.readline()
+        time.sleep(7)
 userID_file.close()
