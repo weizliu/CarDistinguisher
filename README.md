@@ -7,6 +7,13 @@ Firstly, download twitter API from https://github.com/tweepy/tweepy.git and inst
 
 Secondly, download twitter-python from https://github.com/bear/python-twitter.git
 
+Third, install pydot
+
+pip uninstall pyparsing
+
+pip install -Iv https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.tar.gz#md5=9be0fcdcc595199c646ab317c1d9a709
+
+pip install pydot
 
 ####Grab_data.py 
   
