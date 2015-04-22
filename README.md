@@ -28,3 +28,7 @@ catches tweets of a specific user( specified the use id).
 ####brands_stats.py 
 
 computes the percetage of tweets related to a certain car brand over the data we grab.
+
+####Model_NaiveBayes/ Model_SVM/ Model_decisionTree
+
+three model to multiple classification tweets
