@@ -32,3 +32,7 @@ computes the percetage of tweets related to a certain car brand over the data we
 ####Model_NaiveBayes/ Model_SVM/ Model_decisionTree
 
 three model to multiple classification tweets
+
+####Notes
+
+If you need help, please feel free to inform me: weizliu@umich.edu.
